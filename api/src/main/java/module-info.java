@@ -3,4 +3,5 @@ module api.main {
     requires org.hibernate.orm.core;
     requires spring.data.commons;
     requires spring.data.jpa;
+    requires spring.context;
 }
